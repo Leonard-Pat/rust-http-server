@@ -1,5 +1,5 @@
 pub enum Method {
-        GET,
+        GET(i128),
         DELETE,
         POST,
         PUT,
